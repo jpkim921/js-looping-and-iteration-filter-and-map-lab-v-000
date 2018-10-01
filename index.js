@@ -20,7 +20,7 @@ function exactMatch(drivers, obj) {
       if (driver[attr] === obj[attr]){
         return driver;
         //  console.log(driver)
-      };
-    };
+      }
+    }
   });
 }
